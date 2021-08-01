@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/nav_group_features">
+        <item
+            android:id="@+id/nav_chatbot"
+            android:title="@string/chat_bot"
+            android:icon="@drawable/ic_chatbot"/>
+
+        <item
+            android:id="@+id/nav_pomodoro"
+            android:icon="@drawable/ic_baseline_timer_24"
+            android:title="@string/pomodoro_timer" />
+
+    </group>
+
+    <group
+        android:id="@+id/nav_group_logout">
+        <item
+            android:id="@+id/nav_logOut"
+            android:title="@string/log_out"
+            android:icon="@drawable/ic_baseline_logout_24"/>
+    </group>
+
+</menu>
