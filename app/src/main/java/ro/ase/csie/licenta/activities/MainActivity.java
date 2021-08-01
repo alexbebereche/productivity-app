@@ -587,7 +587,6 @@ public class MainActivity extends AppCompatActivity implements AssistantReply {
                 Toast.makeText(this, "Something went wrong", Toast.LENGTH_SHORT).show();
             }
         } else {
-            Toast.makeText(this, "Connection failed", Toast.LENGTH_SHORT).show();
         }
     }
 
